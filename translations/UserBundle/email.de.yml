@@ -1,0 +1,20 @@
+reset_password:
+    subject: 'Passwort zurücksetzen'
+    message_text: |
+        Für den Nutzer %username% wurde eine Passwort-Zurücksetzung angefordert.
+
+        Falls du das nicht warst, kannst du diese Nachricht ignorieren.
+
+        Um dein Passwort zurückzusetzen, kopiere folgenden Link in deinen Browser:
+
+        %confirmationUrl%
+    message_html: |
+        Für den Nutzer <strong>%username%</strong> wurde eine Passwort-Zurücksetzung angefordert.
+
+        Falls du das nicht warst, kannst du diese Nachricht ignorieren.
+
+        Klicke auf den folgenden Link, um dein Passwort zurückzusetzen:
+    button_text: 'Passwort zurücksetzen'
+
+invitation:
+    accept: 'Einladung annehmen'
