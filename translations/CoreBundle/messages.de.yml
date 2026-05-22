@@ -1,0 +1,29 @@
+menu:
+    button:
+        create: Erstellen
+    top:
+        profile: Profil
+        api: 'API-Tokens'
+        logout: Abmelden
+        system: 'System <b class="caret"></b>'
+        settings: Einstellungen
+        integrations: Integrationen
+        tax: 'Steuersätze'
+        users: 'Nutzer'
+exception:
+    error:
+        text: 'Folgender Fehler ist aufgetreten:'
+    not_found:
+        text: 'Diese Seite existiert leider nicht.'
+billing:
+    subtotal: Zwischensumme
+    tax: Steuer
+    discount: Rabatt
+    total: Gesamtbetrag
+notification.send_failed: 'Benachrichtigung konnte nicht gesendet werden. Bitte prüfe deine E-Mail-Einstellungen.'
+powered_by: 'Erstellt mit'
+invalid_file: 'Ungültige Datei'
+create_new: 'Neu erstellen'
+invoice: Rechnung
+quote: Angebot
+client: Kunde
