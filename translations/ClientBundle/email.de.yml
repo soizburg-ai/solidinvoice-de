@@ -1,0 +1,11 @@
+client:
+    create:
+        subject: 'Neuer Kunde angelegt'
+        heading: 'Es wurde ein neuer Kunde angelegt.'
+        contacts:
+            heading: Kontakte
+            name: Name
+        details:
+            id: ID
+            name: Name
+            website: Website
