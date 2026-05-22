@@ -1,0 +1,11 @@
+quote:
+    status:
+        subject: 'Angebotsstatus geändert'
+    status_change:
+        heading: 'Der Status eines Angebots hat sich geändert'
+        id: 'Angebotsnummer'
+        old_status: 'Bisheriger Status'
+        new_status: 'Neuer Status'
+        status: 'Status'
+        view_quote: 'Angebot ansehen'
+    info: 'Du hast ein Angebot von %company% erhalten, erstellt am %created%'
