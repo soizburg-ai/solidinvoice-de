@@ -1,0 +1,12 @@
+invoice:
+    pay_now: 'Jetzt bezahlen'
+    status:
+        subject: 'Rechnungsstatus geändert'
+    status_change:
+        heading: 'Der Status einer Rechnung hat sich geändert'
+        id: 'Rechnungsnummer'
+        old_status: 'Bisheriger Status'
+        new_status: 'Neuer Status'
+        status: 'Status'
+        view_invoice: 'Rechnung ansehen'
+    info: 'Du hast eine Rechnung von %company% erhalten, erstellt am %created%'
