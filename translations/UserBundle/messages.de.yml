@@ -1,0 +1,104 @@
+profile:
+    show:
+        title: 'Profil - %username%'
+        'yes': 'Ja'
+        'no': 'Nein'
+        username: Benutzername
+        email: E-Mail
+        mobile: Mobil
+        last_login: 'Letzter Login'
+        enabled: Aktiv
+        locked: Gesperrt
+        expired: Abgelaufen
+        roles: Rollen
+        change_password: 'Passwort ändern'
+        update_profile: 'Profil aktualisieren'
+    edit:
+        success: 'Dein Profil wurde aktualisiert'
+        cancel: Abbrechen
+        submit: Speichern
+    api:
+        title: 'API-Tokens'
+        create: 'Token erstellen'
+        tokens:
+            empty: 'Du hast noch keine API-Tokens'
+            revoke: Widerrufen
+            revoke_message: 'Bist du sicher, dass du diesen Token widerrufen möchtest? Das ist unwiderruflich — alle Apps, die diesen Token nutzen, werden dadurch beeinflusst'
+            history: 'Verlauf anzeigen'
+            used:
+                text: '%date% von %ip%'
+                never: Noch nie
+                last: 'Zuletzt genutzt:'
+            created:
+                title: 'Dein neuer API-Token'
+                done: 'Fertig'
+                warning:
+                    title: 'Token jetzt kopieren.'
+                    body: 'Aus Sicherheitsgründen wird er nicht nochmal angezeigt. Falls du ihn verlierst, widerrufe diesen Token und erstelle einen neuen.'
+        form:
+            title: 'API-Token erstellen'
+            actions:
+                save: Speichern
+                close: Schließen
+        history:
+            title: 'API-Verlauf'
+            actions:
+                close: Schließen
+            last_calls_shown: 'Es werden nur die letzten 100 Aufrufe angezeigt'
+            last_calls_shown_note: 'Hinweis:'
+            list:
+                date: Datum
+                ip: 'IP-Adresse'
+                resource: Ressource
+                user_agent: 'User Agent'
+    password_change:
+        success: 'Dein Passwort wurde aktualisiert'
+
+security:
+    login:
+        login: Anmelden
+        username: 'E-Mail-Adresse'
+        password: Passwort
+        remember: 'Angemeldet bleiben'
+        forgot_password: 'Passwort vergessen?'
+    register:
+        title: Registrieren
+        email: E-Mail
+        password: Passwort
+        password_confirm: 'Passwort bestätigen'
+        submit: Registrieren
+        success: 'Dein Konto wurde erstellt, du kannst dich jetzt anmelden'
+
+users:
+  invite: 'Nutzer einladen'
+  invitation:
+    success: 'Einladung erfolgreich gesendet!'
+    accept:
+      success: 'Einladung angenommen! Du kannst dich jetzt anmelden.'
+    exists: 'Für diese E-Mail-Adresse gibt es bereits eine ausstehende Einladung'
+  add: 'Nutzer hinzufügen'
+  edit: 'Nutzer bearbeiten'
+  title: 'Nutzer'
+  create:
+    generate_password: 'Zufälliges Passwort generieren'
+    success: 'Nutzer erfolgreich erstellt!'
+  save: 'Speichern'
+  grid:
+    invitation:
+        actions:
+            resend: 'Einladung erneut senden'
+    actions:
+        edit: 'Bearbeiten'
+        delete: 'Löschen'
+
+change_password:
+    submit: 'Speichern'
+
+forgot_password:
+    request:
+        submit: 'Passwort zurücksetzen'
+        username: 'E-Mail-Adresse'
+    check_email: |
+        E-Mail wurde gesendet. Sie enthält einen Link, den du anklicken musst, um dein Passwort zurückzusetzen.
+
+        Falls du keine E-Mail erhältst, prüfe deinen Spam-Ordner oder versuche es nochmal.
