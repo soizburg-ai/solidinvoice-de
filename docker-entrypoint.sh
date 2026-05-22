@@ -1,6 +1,6 @@
 #!/bin/sh
 # SolidInvoice DE-Lokalisierung — Entrypoint Wrapper
-# Wartet auf FrankenPHP-Extraktion, overlay dann DE-Übersetzungen
+# Wartet auf FrankenPHP-Extraktion, overlay dann DE-Übersetzungen + PHP-Patches
 #
 # Hintergrund: FrankenPHP extrahiert die App beim ersten Start in:
 #   /root/.SolidInvoice/app_HASH/
@@ -59,11 +59,26 @@ for ENTRY in \
   fi
 done
 
-# 5. Symfony-Cache leeren
+# 5. PHP-Patches einspielen (hartcodierte Strings die nicht via YAML übersetzbar sind)
+echo "[entrypoint] Kopiere PHP-Patches..."
+for ENTRY in \
+  "ClientBundle/Menu/Builder.php:ClientBundle/Menu" \
+  "PaymentBundle/Menu/Builder.php:PaymentBundle/Menu"; do
+  SRC_REL="${ENTRY%%:*}"
+  DST_DIR="$APP_SRC/${ENTRY##*:}"
+  SRC="$STAGING/php/$SRC_REL"
+  FILENAME=$(basename "$SRC_REL")
+  if [ -f "$SRC" ] && [ -d "$DST_DIR" ]; then
+    cp "$SRC" "$DST_DIR/$FILENAME"
+    echo "[entrypoint]   ✓ php/$SRC_REL"
+  fi
+done
+
+# 6. Symfony-Cache leeren
 echo "[entrypoint] Cache leeren..."
 /usr/local/bin/solidinvoice console cache:clear --env=prod --no-debug
 
 echo "[entrypoint] DE-Lokalisierung eingespielt. Starte SolidInvoice..."
 
-# 6. Original-Prozess starten (exec = PID 1, korrekt für Docker-Signalhandling)
+# 7. Original-Prozess starten (exec = PID 1, korrekt für Docker-Signalhandling)
 exec /usr/local/bin/solidinvoice "$@"
