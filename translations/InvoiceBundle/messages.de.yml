@@ -1,0 +1,128 @@
+invoice:
+    list:
+        status_legend: 'Rechnungsstatus Legende'
+        title: Rechnungen
+        recurring_title: Wiederkehrende Rechnungen
+        outstanding: Offen
+        income: Einnahmen
+    created: Erstellt
+    status: Status
+    summary: 'Rechnungsübersicht'
+    total: Gesamtbetrag
+    subtotal: Zwischensumme
+    tax: Steuer
+    discount: Rabatt
+    title: 'Rechnung #%id%'
+    notes: Anmerkungen
+    terms: Zahlungsbedingungen
+    client:
+        choose: 'Kunde auswählen'
+        empty: 'Du hast noch keine Kunden angelegt.'
+        create: 'Jetzt einen anlegen'
+    create:
+        new: 'Rechnung erstellen'
+        success: 'Rechnung erfolgreich erstellt'
+    edit:
+        success: 'Rechnung erfolgreich aktualisiert'
+        paid: 'Bezahlte Rechnungen können nicht bearbeitet werden'
+    item:
+        add: 'Position hinzufügen'
+        remove: 'Position entfernen'
+        heading:
+            description: Beschreibung
+            price: Preis
+            qty: Menge
+            total: Gesamt
+            tax: Steuer
+    save:
+        send: 'Speichern & Senden'
+        enable: 'Speichern & Aktivieren'
+        draft: 'Als Entwurf speichern'
+        cancel: Abbrechen
+        update: Aktualisieren
+    view:
+        online: 'Diese Rechnung online ansehen unter: %url%'
+        toolbar:
+            mark_paid: 'Als bezahlt markieren'
+            send: Senden
+            pay_now: 'Jetzt bezahlen'
+            cancel: Abbrechen
+            edit: Bearbeiten
+            reopen: 'Wieder öffnen'
+            clone: Duplizieren
+            view_quote: 'Angebot anzeigen'
+        payments: Zahlungen
+    clone:
+        success: 'Rechnung erfolgreich dupliziert'
+    payment:
+        capture: 'Möchtest du eine Zahlung für diese Rechnung erfassen?'
+    mark_paid: 'Als bezahlt markieren'
+    capture_payment: 'Zahlung erfassen'
+    add_payment: 'Zahlung hinzufügen'
+    transition:
+        exception:
+            accept: 'Rechnung kann nicht akzeptiert werden'
+            cancel: 'Rechnung kann nicht storniert werden'
+            pay: 'Rechnung kann nicht als bezahlt markiert werden'
+            sent: 'Rechnung kann nicht gesendet werden'
+            reopen: 'Rechnung kann nicht wieder geöffnet werden'
+            archive: 'Rechnung kann nicht archiviert werden'
+        action:
+            accept: 'Rechnung wurde akzeptiert'
+            cancel: 'Rechnung wurde storniert'
+            pay: 'Rechnung wurde als bezahlt markiert'
+            sent: 'Rechnung wurde gesendet'
+            reopen: 'Rechnung wurde wieder geöffnet'
+            archive: 'Rechnung wurde archiviert'
+            activate: 'Rechnung wurde aktiviert'
+    stats:
+        count:
+            pending: '{0} Offene Rechnungen|{1} Offene Rechnung|]1,Inf] Offene Rechnungen'
+            draft: '{0} Entwürfe|{1} Entwurf|]1,Inf] Entwürfe'
+            paid: '{0} Bezahlte Rechnungen|{1} Bezahlte Rechnung|]1,Inf] Bezahlte Rechnungen'
+            cancelled: '{0} Stornierte Rechnungen|{1} Stornierte Rechnung|]1,Inf] Stornierte Rechnungen'
+            overdue: '{0} Überfällige Rechnungen|{1} Überfällige Rechnung|]1,Inf] Überfällige Rechnungen'
+    grid:
+        actions:
+            view: Anzeigen
+            edit: Bearbeiten
+            delete: Löschen
+    action:
+        create: 'Rechnung erstellen'
+        create_recurring: 'Wiederkehrende Rechnung erstellen'
+        edit: 'Rechnung bearbeiten'
+        view: 'Rechnung anzeigen'
+        pay_now: 'Jetzt bezahlen'
+        print: 'Drucken'
+        pdf: 'PDF'
+    balance: 'Offener Betrag'
+    archive:
+        success: 'Rechnung wurde archiviert'
+    recurring:
+        date_start: 'Startdatum'
+        date_end: 'Enddatum'
+        date_end_info: 'Ohne Enddatum wird die Rechnung unbegrenzt wiederholt'
+        view:
+            starting: ab
+            ending: 'bis zum'
+            label: 'Wiederkehrend'
+        variables:
+            text: 'Du kannst folgende Platzhalter in der Beschreibung verwenden, die beim Erstellen der Rechnung automatisch ersetzt werden:'
+            day: 'Der Tag der Rechnung (z.B. ''15'')'
+            day_name: 'Der Name des Tages (z.B. ''Mittwoch'')'
+            month: 'Der Monatsname (z.B. ''Abo für {month}'' wird zu ''Abo für %month%'')'
+            year: 'Das Jahr (z.B. ''Jahresabo {year}'' wird zu ''Jahresabo %year%'')'
+    menu:
+        main: Rechnungen
+        list: 'Alle Rechnungen'
+        create: 'Rechnung erstellen'
+        view: 'Rechnung anzeigen'
+        recurring:
+            main: 'Wiederkehrende Rechnungen'
+            list: 'Alle wiederkehrenden Rechnungen'
+            create: 'Wiederkehrende Rechnung erstellen'
+            view: 'Wiederkehrende Rechnung anzeigen'
+
+invoice_status_update: 'Rechnungsstatus aktualisiert'
+
+invoice.email.send_failed: 'Rechnungs-E-Mail konnte nicht gesendet werden. Bitte prüfe deine E-Mail-Einstellungen.'
