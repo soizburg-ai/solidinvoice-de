@@ -1,0 +1,4 @@
+settings:
+    save: Speichern
+    saved:
+        success: 'Einstellungen erfolgreich gespeichert!'
