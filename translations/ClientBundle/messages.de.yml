@@ -1,0 +1,123 @@
+client:
+    create:
+        success: 'Kunde erfolgreich gespeichert!'
+    confirm_delete: 'Bist du sicher, dass du diesen Kunden löschen möchtest?'
+    delete_success: 'Kunde wurde erfolgreich gelöscht'
+    archive:
+        success: 'Kunde erfolgreich archiviert'
+    restore:
+        success: 'Kunde erfolgreich wiederhergestellt'
+    info: 'Kundeninfo'
+    save: 'Kunde speichern'
+    cancel: 'Abbrechen'
+    address:
+        info: 'Adressinfo'
+        add: 'Adresse hinzufügen'
+        delete: 'Adresse löschen'
+        edit: 'Adresse bearbeiten'
+        delete_confirm: 'Bist du sicher, dass du diese Adresse löschen möchtest?'
+        country:
+            select: 'Land auswählen'
+        view_map: 'Karte anzeigen'
+    contact:
+        at_least_1: 'Dieser Kunde braucht mindestens einen Ansprechpartner'
+        info: 'Kontaktinfo'
+        add: 'Kontakt hinzufügen'
+        delete: 'Kontakt löschen'
+        delete_confirm: 'Bist du sicher, dass du diesen Kontakt löschen möchtest?'
+        details:
+            choose: 'Auswählen'
+            extra: 'Weitere Kontaktdetails'
+            email: 'E-Mail'
+    grid:
+        actions:
+            view: 'Anzeigen'
+            edit: 'Bearbeiten'
+            delete: 'Löschen'
+    stats:
+        income: 'Einnahmen'
+        credit: 'Guthaben'
+        outstanding: 'Offen'
+        outstanding_invoices: 'Offene Rechnungen'
+        paid_invoices: 'Bezahlte Rechnungen'
+        number_quotes: '{0} Angebote|{1} Angebot|]1,Inf] Angebote'
+        number_invoices: '{0} Rechnungen|{1} Rechnung|]1,Inf] Rechnungen'
+        tooltip:
+            total_invoices: 'Gesamtanzahl Rechnungen für diesen Kunden'
+            total_quotes: 'Gesamtanzahl Angebote für diesen Kunden'
+            total_outstanding: 'Anzahl offener Rechnungen für diesen Kunden'
+            total_paid: 'Anzahl bezahlter Rechnungen für diesen Kunden'
+    view:
+        actions:
+            create_quote: 'Angebot erstellen'
+            create_invoice: 'Rechnung erstellen'
+            add_contact: 'Kontakt hinzufügen'
+            edit: 'Bearbeiten'
+            delete: 'Löschen'
+            add_credit: 'Guthaben hinzufügen'
+        tabs:
+            info: 'Info'
+            quotes: 'Angebote'
+            invoices: 'Rechnungen'
+            payments: 'Zahlungen'
+        currency: 'Währung:'
+    heading:
+        payments: 'Zahlungen'
+        addresses: 'Adressen'
+        contacts: 'Kontakte'
+    modal:
+        add_credit: 'Guthaben hinzufügen'
+        add_contact: 'Kontakt hinzufügen'
+        edit_contact: 'Kontakt bearbeiten'
+        edit_address: 'Adresse bearbeiten'
+        credit:
+            amount: 'Betrag'
+            tip: '<strong>Tipp:</strong> Um einen Betrag abzuziehen, füge ein ''-'' vor dem Betrag ein, z.B. <code>%amount%</code>'
+        action:
+            close: 'Schließen'
+            save: 'Speichern'
+    menu:
+        main: 'Kunden'
+        list: 'Alle Kunden'
+        add: 'Kunde anlegen'
+        view: 'Kunde anzeigen'
+        create:
+            invoice: 'Rechnung erstellen'
+            quote: 'Angebot erstellen'
+    form:
+        currency:
+            empty_value: 'Systemstandard'
+    contacts:
+      info:
+        list: 'Kontakte auswählen, an die %type% gesendet werden soll'
+
+email: 'E-Mail'
+clients: 'Kunden'
+add_client: 'Kunde anlegen'
+save: 'Speichern'
+contact_details: 'Kontaktdetails'
+id: 'ID'
+name: 'Name'
+website: 'Website'
+all_clients: 'Alle Kunden'
+active_clients: 'Aktive Kunden'
+inactive_clients: 'Inaktive Kunden'
+status: 'Status'
+invoices: 'Rechnungen'
+quotes: 'Angebote'
+view: 'Anzeigen'
+edit_client: 'Kunde bearbeiten'
+no_quotes: 'Für diesen Kunden gibt es noch keine Angebote.'
+no_invoices: 'Für diesen Kunden gibt es noch keine Rechnungen.'
+create_now: 'Jetzt erstellen.'
+created: 'Erstellt'
+delete_client: 'Kunde löschen'
+contact_delete_success: 'Kontakt wurde erfolgreich gelöscht'
+contact_delete: 'Kontakt löschen'
+contact_edit: 'Kontakt bearbeiten'
+contact_saved: 'Kontakt wurde erfolgreich gespeichert'
+success: 'Erledigt'
+close: 'Schließen'
+change: 'Ändern'
+client_create: 'Kunde anlegen'
+add_info: 'Info hinzufügen'
