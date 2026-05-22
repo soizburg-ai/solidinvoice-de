@@ -1,0 +1,24 @@
+tax:
+    rates:
+        title: 'Steuersätze'
+        add: 'Steuersatz hinzufügen'
+        save: Speichern
+        explanation: |
+            <b>Inklusiv</b>: Die Steuer ist bereits im Artikelpreis enthalten<br />
+            <b>Exklusiv</b>: Die Steuer wird zusätzlich zum Artikelpreis berechnet
+        type:
+            select: Auswählen
+    inclusive: Inklusiv
+    exclusive: Exklusiv
+    grid:
+        actions:
+            edit: Bearbeiten
+    form:
+      input:
+        validate: Prüfen
+    vat_number: 'UID-Nummer:'
+
+inclusive: Inklusiv
+exclusive: Exklusiv
+rate: Satz
+type: Typ
