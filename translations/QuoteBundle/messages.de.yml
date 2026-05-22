@@ -1,0 +1,98 @@
+quote:
+    list:
+        status_legend: 'Angebotsstatus Legende'
+        title: Angebote
+    summary: 'Angebotsübersicht'
+    create: 'Angebot erstellen'
+    created: Erstellt
+    total: Gesamtbetrag
+    subtotal: Zwischensumme
+    tax: Steuer
+    discount: Rabatt
+    edit: 'Angebot bearbeiten'
+    terms: Zahlungsbedingungen
+    notes: Anmerkungen
+    title: 'Angebot #%id%'
+    save:
+        send: 'Speichern & Senden'
+        draft: 'Als Entwurf speichern'
+        update: Aktualisieren
+        cancel: Abbrechen
+    item:
+        add: 'Position hinzufügen'
+        remove: 'Position entfernen'
+        heading:
+            description: Beschreibung
+            price: Preis
+            qty: Menge
+            tax: Steuer
+            total: Gesamt
+    action:
+        edit:
+            success: 'Angebot erfolgreich aktualisiert'
+        create:
+            success: 'Angebot erfolgreich erstellt'
+        print: 'Drucken'
+        pdf: 'PDF'
+    view:
+        toolbar:
+            accept: Annehmen
+            decline: Ablehnen
+            send: Senden
+            cancel: Abbrechen
+            edit: Bearbeiten
+            reopen: 'Wieder öffnen'
+            clone: Duplizieren
+            view_invoice: 'Rechnung anzeigen'
+        online: 'Dieses Angebot online ansehen unter: %url%'
+    clone:
+        success: 'Angebot erfolgreich dupliziert'
+    accepted: 'Angebot angenommen und Rechnung erstellt'
+    declined: 'Angebot abgelehnt'
+    cancelled: 'Angebot storniert'
+    reopened: 'Angebot wieder geöffnet'
+    sent: 'Angebot gesendet'
+    client:
+        choose: 'Kunde auswählen'
+        empty: 'Du hast noch keine Kunden angelegt.'
+        create: 'Jetzt einen anlegen'
+    transition:
+        exception:
+            accept: 'Angebot kann nicht angenommen werden'
+            archive: 'Angebot kann nicht archiviert werden'
+        action:
+            accept: 'Angebot angenommen und Rechnung erstellt'
+            decline: 'Angebot abgelehnt'
+            cancel: 'Angebot storniert'
+            reopen: 'Angebot wieder geöffnet'
+            sent: 'Angebot gesendet'
+            publish: 'Angebot veröffentlicht'
+            send: 'Angebot gesendet'
+    archive:
+        success: 'Angebot archiviert'
+    grid:
+        actions:
+            view: Anzeigen
+            edit: Bearbeiten
+            delete: Löschen
+    stats:
+        count:
+            pending: '{0} Offene Angebote|{1} Offenes Angebot|]1,Inf] Offene Angebote'
+            accepted: '{0} Angenommene Angebote|{1} Angenommenes Angebot|]1,Inf] Angenommene Angebote'
+            draft: '{0} Entwürfe|{1} Entwurf|]1,Inf] Entwürfe'
+            cancelled: '{0} Stornierte Angebote|{1} Storniertes Angebot|]1,Inf] Stornierte Angebote'
+            declined: '{0} Abgelehnte Angebote|{1} Abgelehntes Angebot|]1,Inf] Abgelehnte Angebote'
+    menu:
+        main: Angebote
+        list: 'Alle Angebote'
+        create: 'Angebot erstellen'
+        view: 'Angebot anzeigen'
+
+status: Status
+client: Kunde
+search: Suchen
+title: 'Nachrichten'
+
+quote_status_update: 'Angebotsstatus aktualisiert'
+
+quote.email.send_failed: 'Angebots-E-Mail konnte nicht gesendet werden. Bitte prüfe deine E-Mail-Einstellungen.'
