@@ -1,0 +1,11 @@
+payment:
+    description: 'Neue Zahlung eingegangen'
+    capture:
+        subject: 'Zahlung eingegangen'
+    details:
+        amount: Betrag
+        currency: Währung
+        invoice: Rechnung
+        client: Kunde
+        status: Status
+        method: 'Zahlungsart'
