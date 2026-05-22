@@ -1,0 +1,57 @@
+payment:
+    create:
+        cancel: Abbrechen
+        force: 'Zahlungsstatus erzwingen (Optional)'
+        discount: Rabatt
+        base_total: 'Nettobetrag'
+        total: Gesamtbetrag
+        tite: 'Zahlung für Rechnung #%id%'
+        balance: 'Offener Betrag'
+        credit: 'Guthaben:'
+        exception:
+            not_enough_credit: 'Nicht genügend Guthaben verfügbar'
+            amount_exceeds_balance: 'Betrag übersteigt den offenen Saldo'
+    flash:
+        status:
+            success: 'Zahlung erfolgreich abgeschlossen'
+            cancelled: 'Zahlung wurde abgebrochen'
+            pending: 'Zahlung ausstehend'
+            expired: 'Zahlung abgelaufen'
+            failed: 'Zahlung fehlgeschlagen'
+            new: 'Neue Zahlung erstellt'
+            suspended: 'Zahlung wurde ausgesetzt'
+            unknown: 'Ein unbekannter Fehler ist aufgetreten'
+            authorized: 'Zahlung wurde autorisiert'
+            refunded: 'Zahlung wurde erstattet'
+    form:
+        help:
+            internal: 'Diese Zahlungsoption ist nur für die interne Nutzung gedacht. Kunden können sie nicht zur Bezahlung auswählen.'
+        label:
+            internal: 'Nur intern'
+    action:
+        pay: 'Jetzt bezahlen'
+    list:
+        title: Zahlungen
+        status_legend: 'Zahlungsstatus Legende'
+        grid:
+            invoice: Rechnung
+            payment_id: 'Zahlungs-ID'
+            method: 'Zahlungsart'
+            amount: Betrag
+            currency: Währung
+            payment_date: 'Zahlungsdatum'
+            status: Status
+    method:
+        add: 'Zahlungsart hinzufügen'
+        added: 'Zahlungsart erfolgreich hinzugefügt!'
+        updated: 'Zahlungsart erfolgreich aktualisiert!'
+    methods:
+        title: 'Zahlungsarten'
+    menu:
+        main: Zahlungen
+        methods: 'Zahlungsarten'
+    settings:
+        password:
+            hint: 'Leer lassen, um den bestehenden Wert zu behalten'
+
+payment_made: 'Zahlung eingegangen'
