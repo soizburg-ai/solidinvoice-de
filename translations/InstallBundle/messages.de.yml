@@ -1,0 +1,51 @@
+installation:
+    already_installed: 'Die Anwendung ist bereits installiert'
+    title: '%app_name% Installation'
+    step:
+        license_agreement: 'Lizenzvereinbarung'
+        system_check: 'Systemprüfung'
+        database_configuration: 'Datenbankkonfiguration'
+        system_information: 'Systeminformationen'
+        info:
+            company: 'Firmeninformationen'
+            user: 'Admin-Benutzerinformationen'
+    action:
+        previous: Zurück
+        next: Weiter
+        refresh: Aktualisieren
+        restart: Neu starten
+        restart_process: 'Installation neu starten'
+    requirements:
+        not_met: 'Einige Anforderungen sind nicht erfüllt'
+        message: 'Bitte stelle sicher, dass dein System die Mindestanforderungen erfüllt, bevor du fortfährst.'
+        mandatory: Pflicht
+        optional: Optional
+    progress:
+        step:
+            system_check: 'Systemanforderungen'
+            config: 'Datenbank-Konfiguration'
+            process: 'Installationsprozess'
+            setup: 'System-Setup'
+            finish: Fertigstellen
+    process:
+        title:
+            busy: Installiere...
+            done: Fertig
+        step:
+            createdb: 'Datenbank wird erstellt'
+            migrations: 'Datenbankschema wird erstellt'
+    config:
+        title:
+            requirements_check: 'Systemanforderungen prüfen'
+            database_config: 'Datenbank-Konfiguration'
+            email_settings: 'E-Mail-Einstellungen'
+    setup:
+        title:
+            system_settings: 'Systemeinstellungen'
+            admin_user: 'Admin-Benutzer'
+        notice: 'Hinweis'
+        user_exists: 'Die Datenbank enthält bereits einen Admin-Benutzer.'
+    finish:
+        success: Geschafft
+        success_message: 'SolidInvoice wurde erfolgreich installiert!'
+        login: 'Jetzt anmelden'
