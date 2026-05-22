@@ -1,0 +1,56 @@
+dashboard:
+    title: Dashboard
+    active_clients: 'Aktive Kunden'
+    income_received: 'Einnahmen'
+    pending_quotes: 'Offene Angebote'
+    outstanding_invoices: 'Offene Rechnungen'
+    create:
+        new: 'Neu erstellen'
+        client: Kunde
+        invoice: Rechnung
+        quote: Angebot
+    quick_nav:
+        title: 'Schnellzugriff'
+        clients: Kunden
+        invoices: Rechnungen
+        quotes: Angebote
+        settings: Einstellungen
+        profile: Profil
+    client:
+        recent: 'Aktuelle Kunden'
+        create: 'Neuen Kunden anlegen'
+        empty: 'Noch keine Kunden vorhanden'
+        view_all: 'Alle Kunden anzeigen'
+        actions:
+            view: Anzeigen
+            edit: Bearbeiten
+            created: 'Erstellt:'
+            create:
+                quote: 'Angebot erstellen'
+                invoice: 'Rechnung erstellen'
+    quote:
+        recent: 'Aktuelle Angebote'
+        create: 'Neues Angebot erstellen'
+        empty: 'Noch keine Angebote vorhanden'
+        view_all: 'Alle Angebote anzeigen'
+        actions:
+            view: Anzeigen
+            edit: Bearbeiten
+            created: 'Erstellt:'
+    invoice:
+        recent: 'Aktuelle Rechnungen'
+        create: 'Neue Rechnung erstellen'
+        empty: 'Noch keine Rechnungen vorhanden'
+        view_all: 'Alle Rechnungen anzeigen'
+        actions:
+            view: Anzeigen
+            pay: 'Jetzt bezahlen'
+            edit: Bearbeiten
+            created: 'Erstellt:'
+    payment:
+        recent: 'Aktuelle Zahlungen'
+        view_all: 'Alle Zahlungen anzeigen'
+        actions:
+            created: 'Erstellt:'
+            invoice: 'Rechnung:'
+        no_payments: 'Noch keine Zahlungen vorhanden'
