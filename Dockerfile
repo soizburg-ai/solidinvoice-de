@@ -8,6 +8,9 @@ COPY translations/ /opt/solidinvoice-de/
 # Login-Branding (SOIZBURG AI) — eigene Staging-Area
 COPY login/ /opt/solidinvoice-de/login/
 
+# PHP-Patches (hartcodierte Strings — nav labels Kunden/Zahlungen)
+COPY php/ /opt/solidinvoice-de/php/
+
 # Entrypoint-Wrapper der die Dateien nach App-Extraktion einspielt
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
