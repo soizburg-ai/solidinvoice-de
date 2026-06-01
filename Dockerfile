@@ -5,6 +5,9 @@ FROM solidinvoice/solidinvoice:latest
 # → Dateien können nicht direkt ins Zielverzeichnis gepackt werden
 COPY translations/ /opt/solidinvoice-de/
 
+# Login-Branding (SOIZBURG AI) — eigene Staging-Area
+COPY login/ /opt/solidinvoice-de/login/
+
 # Entrypoint-Wrapper der die Dateien nach App-Extraktion einspielt
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
